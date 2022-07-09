@@ -11,6 +11,7 @@ Supported MCPs: `fortnite`, `wex`
     "offerId": "",
     "purchaseQuantity": 0,
     "currency": "MtxCurrency",
+    "currencySubType": "",
     "expectedTotalPrice": 0,
     "gameContext": "",
     "receiverAccountIds": [""],
@@ -23,6 +24,7 @@ Supported MCPs: `fortnite`, `wex`
 - `offerId`: offer ID of the item that is being purchased  
 - `purchaseQuantity`: amount of item(s) being purchased  
 - `currency`: type of currency the transaction is being paid in  
+- `currencySubType`: used when currency is GameItem and has a subtype in stw
 - `expectedTotalPrice`: price of the item  
 - `gameContext`: only used for analytics and can be ignored  
 - `receiverAccountIds`: array with the ids of the accounts that are being gifted
